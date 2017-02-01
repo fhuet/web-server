@@ -23,7 +23,7 @@ app.use(middleware.logger);
 //app.use(middleware.requireAuthentication);
 
 app.get('/About', middleware.requireAuthentication, function (req, res) {
-    res.send('Let\'s talk about us Baby!');
+    res.send('Let\'s talk about us Baby!!');
 });
 
 app.use(express.static(__dirname + '/public'));
